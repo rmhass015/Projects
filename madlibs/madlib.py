@@ -11,7 +11,7 @@ print("""
       The game where you write the story!
       """)
 
-madlibType = input("Which MADLIB would you like to choose? Type 'Humor', 'Sports' or 'Avatar': ")
+madlibType = input("Which MADLIB would you like to choose? Type 'Humor' or 'Sports' : ")
 
 while madlibType.upper() is not "EXIT":
       if madlibType.upper() == "HUMOR":
