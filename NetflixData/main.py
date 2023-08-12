@@ -55,6 +55,6 @@ office_by_hour = office_by_hour.sort_index()
 # plot office_by_hour as a bar chart with the listed size and title
 office_by_hour.plot(kind='bar', figsize=(20,10), title='Office Episodes Watched by Hour')
 
-
+#testing data
 print(office.head(1))
 # %%
